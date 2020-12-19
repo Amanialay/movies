@@ -18,7 +18,8 @@ GROUP BY I.FILM_ID
 ) R
 ON F.FILM_ID = R.F_ID
 WHERE C.NAME IN('Animation', 'Children', 'Classics', 'Comedy', 'Family','Music')
-ORDER BY 2, 1
+ORDER BY 2, 1, 3 DESC
+LIMIT 5
 __________________________________________________________________________________
 
 QUESTION 2
