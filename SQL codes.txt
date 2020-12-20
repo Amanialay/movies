@@ -31,7 +31,7 @@ JOIN FILM_CATEGORY FC
 ON C.CATEGORY_ID=FC.CATEGORY_ID
 JOIN FILM F
 ON FC.FILM_ID=F.FILM_ID
-WHERE C.NAME IN('Animation', 'Children', 'Classics', 'Comedy', 'Family','Music')
+WHERE C.NAME IN('Animation', 'Children')
 GROUP BY 1,2,3
 
 ____________________________________________________________________________________
